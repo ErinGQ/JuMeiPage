@@ -1,0 +1,161 @@
+body {
+	font-size: 12px;
+	font-family: Arial;
+	min-width:1024px;
+/* 	width:1920px; */
+}
+
+a {
+	color: #999;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fd1561;
+}
+
+nav.top {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #e7e7e7;
+
+}
+
+div.top_middle{
+	max-width:1024px;
+	margin:0px auto;
+}
+
+div.simpleSearchOutDiv{
+	max-width:1024px;
+	margin:0px auto;
+	position:relative;
+}
+
+.redColor {
+	color: #fd1561;
+}
+
+.boldWord {
+	font-weight: bold;
+}
+
+nav.top span {
+	margin-right: 20px;
+}
+
+nav.top span, nav.top a {
+	color: #999;
+	margin: 0px 10px 0px 10px;
+}
+
+nav.top a:hover {
+	color: #fd1561;
+}
+
+nav.top {
+	background-color: #f2f2f2;
+}
+
+nav.top div.row div {
+	margin: 5px 0px;
+}
+
+nav.top div.row div {
+	background-color: lightgray;
+	border: 1px solid gray;
+	text-align: center;
+}
+
+div.searchOutDiv{
+	max-width:1024px;
+	margin:0px auto;
+	position:relative;
+}
+
+div.searchDiv {
+	background-color: #fd1561;
+	width: 600px;
+	margin: 50px auto;
+	padding: 1px;
+	height: 40px;
+	display: block;
+}
+
+div.searchDiv input {
+	width: 475px;
+	border: 1px solid transparent;
+	height: 36px;
+	margin: 1px;
+	font-size: 15px;
+	color:#000;
+	outline:none;
+}
+
+div.searchDiv button {
+	width: 110px;
+	border: 1px solid transparent;
+	background-color: #fd1561;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+div.searchBelow span {
+	color: #999;
+}
+
+div.searchBelow {
+	margin-top: 3px;
+	margin-left: -10px;
+}
+
+div.searchBelow a {
+	padding: 0px 10px 0px 10px;
+	font-size: 14px;
+}
+div.searchBelow .cred{
+	color: #fd1561;
+}
+div.searchBelow .cred:hover{
+	color: gold;
+}
+div.homepageDiv{
+	position:relative;
+}
+
+
+img.catear {
+	position: absolute;
+	height: 15px;
+	display: none;
+}
+img.logo {
+	width: 150px;
+	height: 62px;
+	position: absolute;
+	left: -0px;
+	top: -2px;
+/* 	z-index:-1; */
+}
+
+.cart_box {
+    float: right;
+    margin: -84px 114px 0 0;
+    position: relative;
+    z-index: 8;
+}
+.cart_box .cart_link {
+    -webkit-backface-visibility: hidden;
+    text-decoration: none;
+    display: block;
+    width: 138px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    background: #fff;
+    z-index: 2;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
